@@ -13,6 +13,7 @@
         </div>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <?php if($page == "mitra"){ ?>
             <!-- Search -->
             <form class="form-inline ml-2">
                 <div class="form-group no-border">
@@ -23,6 +24,7 @@
                 </button>
             </form>
             <!-- End Search -->
+            <?php } ?>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item m-1">
                     <a href="#" class="btn btn-primary btn-fab btn-fab-large btn-round" data-toggle="tooltip"
