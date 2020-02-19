@@ -20,8 +20,9 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		$data['page'] = "home";
 		$this->load->view('templates/header');
-		// $this->load->view('templates/little-top-navbar');
+		$this->load->view('templates/little-top-navbar',$data);
 		$this->load->view('templates/navbar-guest');
 		$this->load->view('home');
 		$this->load->view('templates/footer');
@@ -35,18 +36,32 @@ class Welcome extends CI_Controller {
 	}
 	public function mitra()
 	{
+		$data['page'] = "mitra";
 		$this->load->view('templates/header');
-		$this->load->view('templates/little-top-navbar');
-		$this->load->view('templates/navbar-user');
+		$this->load->view('templates/little-top-navbar',$data);
+		$this->load->view('templates/navbar-user',$data);
+		$this->load->view('templates/sidebar',$data);
 		$this->load->view('pages/mitra');
 		$this->load->view('templates/footer');
 	}
 	public function warkit()
 	{
+		$data['page'] = "warkit";
 		$this->load->view('templates/header');
-		$this->load->view('templates/little-top-navbar');
-		$this->load->view('templates/navbar-user');
+		$this->load->view('templates/little-top-navbar',$data);
+		$this->load->view('templates/navbar-user',$data);
+		$this->load->view('templates/sidebar',$data);
 		$this->load->view('pages/warkit');
+		$this->load->view('templates/footer');
+	}
+	public function leader()
+	{
+		$data['page'] = "leader";
+		$this->load->view('templates/header');
+		$this->load->view('templates/little-top-navbar',$data);
+		$this->load->view('templates/navbar-user',$data);
+		$this->load->view('templates/sidebar',$data);
+		$this->load->view('pages/leader');
 		$this->load->view('templates/footer');
 	}
 }

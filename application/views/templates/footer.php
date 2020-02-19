@@ -65,7 +65,13 @@
     $('.main-panel').perfectScrollbar('destroy');
 
     $('.main-panel').perfectScrollbar('update');
+
+    // tooltips
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
   </script>
+  
 
   </body>
 </html>

@@ -53,5 +53,6 @@ $route['default_controller'] = 'welcome';
 $route['login'] = 'welcome/login';
 $route['mitra'] = 'welcome/mitra';
 $route['warkit'] = 'welcome/warkit';
+$route['leader'] = 'welcome/leader';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
