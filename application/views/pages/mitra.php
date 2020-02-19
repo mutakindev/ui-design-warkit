@@ -31,8 +31,8 @@
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#"><i class="material-icons">hourglass_empty</i>
                                 Menunggu</a>
-                            <a class="dropdown-item" href="#"><i class="material-icons">redeem</i> Diproses</a>
-                            <a class="dropdown-item" href="#"><i class="material-icons">delete_forever</i>Dibatalkan</a>
+                            <a class="dropdown-item" href="#"><i class="material-icons">access_time</i> Diproses</a>
+                            <a class="dropdown-item" href="#"><i class="material-icons">block</i>Dibatalkan</a>
                             <a class="dropdown-item" href="#"><i class="material-icons">done</i>Selesai</a>
                         </div>
                     </li>
@@ -40,24 +40,6 @@
                         <a class="nav-link" href="#">
                             <i class="material-icons">shopping_cart</i>
                             <p class="d-inline">Keranjang</p>
-                        </a>
-                    </li>
-                    <li class="nav-item border-top border-bottom ">
-                        <a class="nav-link" href="#">
-                            <i class="material-icons">chat</i>
-                            <p class="d-inline">Obrolan</p>
-                        </a>
-                    </li>
-                    <li class="nav-item border-top border-bottom ">
-                        <a class="nav-link" href="#">
-                            <i class="material-icons">chat</i>
-                            <p class="d-inline">Obrolan</p>
-                        </a>
-                    </li>
-                    <li class="nav-item border-top border-bottom ">
-                        <a class="nav-link" href="#">
-                            <i class="material-icons">chat</i>
-                            <p class="d-inline">Obrolan</p>
                         </a>
                     </li>
                     <li class="nav-item border-top border-bottom ">

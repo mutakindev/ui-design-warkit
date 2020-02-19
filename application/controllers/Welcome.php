@@ -41,4 +41,12 @@ class Welcome extends CI_Controller {
 		$this->load->view('pages/mitra');
 		$this->load->view('templates/footer');
 	}
+	public function warkit()
+	{
+		$this->load->view('templates/header');
+		$this->load->view('templates/little-top-navbar');
+		$this->load->view('templates/navbar-user');
+		$this->load->view('pages/warkit');
+		$this->load->view('templates/footer');
+	}
 }
