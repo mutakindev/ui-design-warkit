@@ -1,3 +1,4 @@
+<!-- Slider\banner\iklan -->
 <div class="container-fluid mt-4">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -41,7 +42,10 @@
         </a>
     </div>
 </div>
+
+<!-- Rekomendasi Barang -->
 <div class="container-fluid">
+    <!-- Setiap Baris terdiri dari 4 colom -->
     <div class="row">
         <div class="col-md-3">
             <div class="card">
@@ -55,7 +59,7 @@
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                     <a href="#" class="btn btn-info"><i class="material-icons">info</i> Detail</a>
-                    <a href="#" class="btn btn-danger"><i class="material-icons">add_shopping_cart</i> Beli</a>
+                    <a href="#" class="btn btn-success"><i class="material-icons">add_shopping_cart</i> Beli</a>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">Last updated 3 mins ago</small>
@@ -74,7 +78,7 @@
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                     <a href="#" class="btn btn-info"><i class="material-icons">info</i> Detail</a>
-                    <a href="#" class="btn btn-danger"><i class="material-icons">add_shopping_cart</i> Beli</a>
+                    <a href="#" class="btn btn-success"><i class="material-icons">add_shopping_cart</i> Beli</a>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">Last updated 3 mins ago</small>
@@ -93,7 +97,7 @@
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                     <a href="#" class="btn btn-info"><i class="material-icons">info</i> Detail</a>
-                    <a href="#" class="btn btn-danger"><i class="material-icons">add_shopping_cart</i> Beli</a>
+                    <a href="#" class="btn btn-success"><i class="material-icons">add_shopping_cart</i> Beli</a>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">Last updated 3 mins ago</small>
@@ -112,7 +116,7 @@
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                     <a href="#" class="btn btn-info"><i class="material-icons">info</i> Detail</a>
-                    <a href="#" class="btn btn-danger"><i class="material-icons">add_shopping_cart</i> Beli</a>
+                    <a href="#" class="btn btn-success"><i class="material-icons">add_shopping_cart</i> Beli</a>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">Last updated 3 mins ago</small>

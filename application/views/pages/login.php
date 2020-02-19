@@ -1,3 +1,4 @@
+<!-- Halaman Login -->
 <div class="container p-5">
     <div class="row justify-content-center mt-5">
         <div class="col-md-6">
@@ -17,11 +18,13 @@
             </div>
             <div class="card-body">
                 <form>
-                    <div class="form-group">
+                    <!-- Contoh field error input, hilangkan class has-danger jika tidak ingin menggunakannya -->
+                    <div class="form-group has-danger">
                         <label class="bmd-label-floating">No.HP / E-mail / Kode Akun</label>
                         <input type="text" class="form-control">
                     </div>
-                    <div class="form-group">
+                    <!-- Contoh field valid input, hilangkan class has-success jika tidak ingin menggunakannya -->
+                    <div class="form-group has-success">
                         <label class="bmd-label-floating">Password</label>
                         <input type="password" class="form-control">
                     </div>
