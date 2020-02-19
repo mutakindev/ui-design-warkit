@@ -1,6 +1,11 @@
 <div class="sidebar">
-    <div class="sidebar-wrapper h-100 bg-white pt-md-5">
-        <div class="card-md sm-text-white pt-md-5">
+    <div class="logo bg-white">
+        <a href="<?= base_url()?>/mitra" class="simple-text logo-normal">
+            Dashboard
+        </a>
+    </div>
+    <div class="sidebar-wrapper bg-white mt-md-2">
+        <div class="card-md sm-text-white">
             <div class="card-header text-center mt-md-5 border-bottom">
                 <img src="<?= base_url()?>assets/img/new_logo.png" alt="profil"
                     class="img-fluid border border-dark rounded-circle" width="50">
@@ -27,8 +32,7 @@
                             <a class="dropdown-item" href="#"><i class="material-icons">hourglass_empty</i>
                                 Menunggu</a>
                             <a class="dropdown-item" href="#"><i class="material-icons">redeem</i> Diproses</a>
-                            <a class="dropdown-item" href="#"><i
-                                    class="material-icons">delete_forever</i>Dibatalkan</a>
+                            <a class="dropdown-item" href="#"><i class="material-icons">delete_forever</i>Dibatalkan</a>
                             <a class="dropdown-item" href="#"><i class="material-icons">done</i>Selesai</a>
                         </div>
                     </li>
@@ -36,6 +40,24 @@
                         <a class="nav-link" href="#">
                             <i class="material-icons">shopping_cart</i>
                             <p class="d-inline">Keranjang</p>
+                        </a>
+                    </li>
+                    <li class="nav-item border-top border-bottom ">
+                        <a class="nav-link" href="#">
+                            <i class="material-icons">chat</i>
+                            <p class="d-inline">Obrolan</p>
+                        </a>
+                    </li>
+                    <li class="nav-item border-top border-bottom ">
+                        <a class="nav-link" href="#">
+                            <i class="material-icons">chat</i>
+                            <p class="d-inline">Obrolan</p>
+                        </a>
+                    </li>
+                    <li class="nav-item border-top border-bottom ">
+                        <a class="nav-link" href="#">
+                            <i class="material-icons">chat</i>
+                            <p class="d-inline">Obrolan</p>
                         </a>
                     </li>
                     <li class="nav-item border-top border-bottom ">
