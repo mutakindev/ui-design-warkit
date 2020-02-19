@@ -4,7 +4,6 @@
   <script src="<?= base_url()?>assets/js/core/popper.min.js" type="text/javascript"></script>
   <script src="<?= base_url()?>assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
 
-  <!-- Plugin for the Perfect Scrollbar -->
   <script src="<?= base_url()?>assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
 
   <!-- Plugin for the momentJs  -->
@@ -60,6 +59,13 @@
 
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="<?= base_url()?>assets/js/material-dashboard.min.js?v=2.1.2" type="text/javascript"></script>
+  <script>
+    $('.sidebar .sidebar-wrapper, .main-panel').perfectScrollbar();
+
+    $('.main-panel').perfectScrollbar('destroy');
+
+    $('.main-panel').perfectScrollbar('update');
+  </script>
 
   </body>
 </html>

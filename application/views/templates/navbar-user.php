@@ -1,9 +1,9 @@
 <!-- Navbar untuk user yang sudah login ke aplikasi -->
-<nav class="navbar navbar-expand-lg bg-white mb-0 fixed-top" style="top:40px;">
+<nav class="navbar navbar-expand-lg bg-white mb-0 fixed-top mt-md-4 pt-md-3">
     <div class="container-fluid">
         <div class="navbar-translate">
-            <a class="navbar-brand align-middle" href="<?= base_url()?>"><img src="<?= base_url() ?>assets/img/angular.png" alt="logo" style="width:40px;"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="<?= base_url()?>"><img src="<?= base_url() ?>assets/img/angular.png" alt="logo" style="width:40px;"></a>
+            <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 <span class="navbar-toggler-icon"></span>
                 <span class="navbar-toggler-icon"></span>

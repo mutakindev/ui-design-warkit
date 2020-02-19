@@ -1,6 +1,6 @@
-<div class="sidebar mt-md-5">
-    <div class="sidebar-wrapper mt-md-5">
-        <div class="card-md sm-text-white">
+<div class="sidebar">
+    <div class="sidebar-wrapper h-100 bg-white pt-md-5">
+        <div class="card-md sm-text-white pt-md-5">
             <div class="card-header text-center mt-md-5 border-bottom">
                 <img src="<?= base_url()?>assets/img/new_logo.png" alt="profil"
                     class="img-fluid border border-dark rounded-circle" width="50">
@@ -49,8 +49,8 @@
         </div>
     </div>
 </div>
-<div class="main-panel">
-    <div class="container-fluid mt-4">
+<div class="main-panel pt-md-5">
+    <div class="container-fluid pt-5">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

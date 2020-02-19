@@ -1,5 +1,5 @@
 <!-- Top Navbar kecil untuk text link -->
-<nav class="navbar navbar-expand-lg m-0 p-0 bg-info fixed-top">
+<nav class="navbar navbar-expand-lg m-0 p-0 bg-info fixed-top" style="z-index: 1038;box-shadow:none;">
 		<div class="container-fluid">
 			<div class="collapse navbar-collapse">
 				<ul class="navbar-nav">
